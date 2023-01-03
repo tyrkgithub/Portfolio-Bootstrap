@@ -15,7 +15,10 @@ body {
 }
 
 
+
 /* Navigation */
+
+
 
 .navbar {
     background-color: var(--clr4);
@@ -52,7 +55,11 @@ body {
 }
 
 
-/* jumbotron */
+
+
+/* Jumbotron */
+
+
 
 
 .jumbotron{
@@ -73,7 +80,21 @@ body {
     padding: 5px;
 }
 
+
+.avatar {
+    height: 200px;
+    margin: 0px;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+
+
 /* About */
+
+
+
 
 #about {
     height: 200px;
@@ -101,7 +122,13 @@ body {
     
 }
 
+
+
+
 /* Portfolio */
+
+
+
 
 #portfolio {
     height: 600px;
@@ -114,27 +141,96 @@ body {
     width:2000px;
 }
 
+
 .card1 {
     background-image: url(../images/screenshot-week-one-challenge.png);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items:flex-end;
+    border: 3px solid var(--clr4);
+    border-radius: 10px;
+    height: 300px;
+}
+
+.card1:hover{
+    border-color: var(--clr2);
+    opacity: 85%;
 }
 
 .card2 {
     background-image: url(../images/flowerpic.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items:flex-end;
+    border: 3px solid var(--clr4);
+    border-radius: 10px;
+    height: 150px;
 }
 
 .card3 {
     background-image: url(../images/flowerpic.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items:flex-end;
+    border: 3px solid var(--clr4);
+    border-radius: 10px;
+    height: 150px;
 }
 
 .card4 {
     background-image: url(../images/flowerpic.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items:flex-end;
+    border: 3px solid var(--clr4);
+    border-radius: 10px;
+    height: 150px;
 }
 
 .card5 {
-    background-image: url(../images/flowerpic.jpg);
+    background-image: url(../images/flowerpic.jpg);   position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items:flex-end;
+    border: 3px solid var(--clr4);
+    border-radius: 10px;
+    height: 150px;
 }
 
 .btn {
+    background-color: var(--clr2);
+    padding: 5px;
+    color: var(--clr3);
+    font-size: 20px;
+    border: 2px solid var(--clr4);
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    border-radius: 10px;
 
 }
 
@@ -143,23 +239,28 @@ body {
 
 /* skills */
 
+
+
+
 #skills {
     height: 200px;
     display: flex;
 }
 
 .skills-description{
-    display: flex;
-    color: var(--clr3);
-    margin: 2% 5%;
-    text-align: center;
-    align-items: center;
-    
-
+        display: flex;
+        color: var(--clr3);
+        margin: 2% 5%;
+        text-align: center;
+        align-items: center;
 }
 
 
+
+
 /* contact */
+
+
 
 #contact {
     height: 200px;
@@ -187,8 +288,111 @@ body {
     border-bottom-color: var(--clr3);
 }
 
+
+
+
 /* footer */
 
+
+
+
 .footer {
-    height:50px
+    background-color: var(--clr4);
+    color: var(--clr3);
+}
+
+.footerLinks{
+    margin: 0;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+    padding: 0%;
+}
+
+.footerList {
+    text-decoration: none;
+}
+
+.footerList:hover {
+    border-bottom-color: var(--clr3);
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 985px){
+    .avatar {
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 550px){
+    #contactLinks {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #about {
+        height: 300px;
+
+      
+    } 
+}
+
+
+@media screen and (max-width: 500px){
+    .nav {
+        display: none;
+    }
+
+    .subHeading h2 {
+        font-size: 15px;
+      
+    }
+
+    .head3 {
+        display: flex;
+        justify-content: end;
+        margin: 10px 10px 10px 20px;
+        font-size: 15px;
+        width: 20px;
+        font-weight: 500;
+        padding: 70px 10px 70px 20px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 500px){   
+     
+    .head4 {
+        font-size: 15px;
+    }
+  
+}
+
+@media screen and (max-width: 350px){
+    h1{
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 300px){
+    #about {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 250px){
+    .head3 {
+        display: none;
+    }
+    .subHeading h2 {
+        font-size: 10px;
+      
+    }
 }
