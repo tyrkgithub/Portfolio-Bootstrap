@@ -1,7 +1,7 @@
 # <h1>Week Three Challenge - Bootstrap Portfolio</h1>
   <br/>
  <h2>My Task</h2> 
-   <p>This weeks challenge is recreating my portfolio web application using bootstrap. Bootstrap will automatically detect a screens size and adjust the content accordingly. Future employers may expect me to know how to use and edit bootstrap</p>
+   <p>This weeks challenge is recreating my portfolio web application using bootstrap.</p>
   
  <br/>
   <ul>
@@ -18,7 +18,7 @@
   
   <br/>
   
-  <p> Please find the link to my deployed application <a href="https://tyrkgithub.github.io/week-two-challenge">here.</a> </p>
+  <p> Please find the link to my deployed application <a href="https://tyrkgithub.github.io/bootstrap-portfolio">here.</a> </p>
   
   <br/>
   
@@ -26,9 +26,7 @@
   
   <br/>
   
-  >AS A web application student<br/>
-     I WANT a portfolio that showcases applications I have made<br/>
-     SO THAT potential clients and employers can see my work<br/>
+  <p>Bootstrap automatically detects screen size and adjust the content accordingly. Future employers will expect me to know how to use and edit bootstrap.<br/>
   </p>
   
   <br/>
@@ -54,8 +52,8 @@
 
   <br/>
  
-  <p>To complete this task I refered to HTML and CSS created for the second mini project.<br/>
-   I also learnt new code from W3school.<br/>
+  <p>To complete this task I refered to the portfolio I made in week two. I then used code from getbootstrap.com for the nav and jumbotron, as well as from mdbootstrap.com for the footer<br/>
+ <br/>
   
   <br/>
 
@@ -63,21 +61,11 @@
  
   <br/>
 
-  <p>Below are screenshots of my portfolio and how the page looks on differnt size devices. I have used media quieries to get this result.</p>
+  <p>Below are screenshots of my portfolio and how the page looks on differnt size devices.</p>
 
 
   <br/>
-    <p>Laptop View</p>
-   <img width="485" alt="portfolio-laptop-view" src="https://user-images.githubusercontent.com/118772733/208523563-cade0b58-82fd-4aa3-a4b4-681a58ce1b1f.png">
-
-   <br/>
-   <p>Tablet View</p>
-<img width="362" alt="portfolio-tablet-view" src="https://user-images.githubusercontent.com/118772733/208523579-6b394336-acb5-479f-b46d-5daa7d723315.png">
-<br/>
-
-<p>Mobile View</p>
-<img width="204" alt="portfolio-mobile-view" src="https://user-images.githubusercontent.com/118772733/208523583-c5e6f12b-3c9c-4138-a218-aa77366b5306.png">
-  
+   
  <h2>Notes</h2>
  
 
@@ -88,6 +76,7 @@
   <br/>
   
   <ul>
-   <li>I wanted the grid to be displayed in columns when the page accessed in mobile view. To do this I added a media query, selected the grid and changed the grid-template-area.</li>
-   <li>Using :hover in CSS will allow you to change how an element looks when the mouse is hovering over it.</p>
+   <li>Mixing my own HTML code from the last challenge with bootstrap code meant when I used my previous CSS code, I had to change the class names to match the bootstrap class names</li>
+   <li>Bootstrap code can have its own colour setting which you can override when you add your own CSS</li>
+   <li>Instead inputting grid and flex in CSS, you can use Bootstrap cards which can be coded as a fraction of 12</li>
 
