@@ -62,12 +62,16 @@
   <br/>
 
   <p>Below are screenshots of my portfolio and how the page looks on differnt size devices.</p>
+<img width="608" alt="Untitled" src="https://user-images.githubusercontent.com/118772733/221566871-98a3b8a2-9e70-4d71-81c0-9000b4ccfcd0.png">
+<br/>
+<img width="482" alt="Untitled2" src="https://user-images.githubusercontent.com/118772733/221567144-bf69a247-d2c3-49da-aee3-8221fc560720.png">
+
 
 
   <br/>
    
  <h2>Notes</h2>
- 
+
 
   <br/>
   
