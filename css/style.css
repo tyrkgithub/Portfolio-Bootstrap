@@ -137,6 +137,7 @@ body {
 .card1:hover {
   border-color: var(--clr2);
   opacity: 85%;
+  box-shadow: 4px 5px rgb(194, 141, 247);
 }
 
 .card2 {
@@ -154,6 +155,12 @@ body {
   height: 150px;
 }
 
+.card2:hover {
+  border-color: var(--clr2);
+  opacity: 85%;
+  box-shadow: 4px 5px rgb(194, 141, 247);
+}
+
 .card3 {
   background-image: url(../images/flowerpic.jpg);
   position: relative;
@@ -167,6 +174,12 @@ body {
   border: 3px solid var(--clr4);
   border-radius: 10px;
   height: 150px;
+}
+
+.card3:hover {
+  border-color: var(--clr2);
+  opacity: 85%;
+  box-shadow: 4px 5px rgb(194, 141, 247);
 }
 
 .card4 {
@@ -184,6 +197,12 @@ body {
   height: 150px;
 }
 
+.card4:hover {
+  border-color: var(--clr2);
+  opacity: 85%;
+  box-shadow: 4px 5px rgb(194, 141, 247);
+}
+
 .card5 {
   background-image: url(../images/flowerpic.jpg);
   position: relative;
@@ -197,6 +216,12 @@ body {
   border: 3px solid var(--clr4);
   border-radius: 10px;
   height: 150px;
+}
+
+.card5:hover {
+  border-color: var(--clr2);
+  opacity: 85%;
+  box-shadow: 4px 5px rgb(194, 141, 247);
 }
 
 .btn {
