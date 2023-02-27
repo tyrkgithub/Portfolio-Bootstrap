@@ -22,12 +22,17 @@ body {
   width: 25%;
   text-align: center;
   padding: 10px;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   color: var(--clr3);
   background-color: var(--clr2);
   border-radius: 10px;
   font-size: 25px;
   font-weight: 500;
+}
+
+.navbar-brand:hover {
+  color: var(--clr1);
 }
 
 .nav-item {
@@ -56,7 +61,7 @@ body {
 }
 
 .display-4 {
-  margin: 0px;
+  margin: 10px;
   position: absolute;
   right: 50px;
   top: 150px;
@@ -104,7 +109,7 @@ body {
 /* Portfolio */
 
 #work {
-  height: 600px;
+  height: 700px;
   display: flex;
 }
 
@@ -278,11 +283,23 @@ body {
   .avatar {
     display: none;
   }
+  #skills {
+    height: 300px;
+  }
 }
 @media screen and (max-width: 875px) {
   .nav-item {
     padding-left: 25px;
     padding-right: 25px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #about {
+    height: 300px;
+  }
+  #skills {
+    height: 400px;
   }
 }
 
@@ -292,14 +309,13 @@ body {
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 575px) {
   #contactLinks {
     display: flex;
     flex-direction: column;
   }
-
-  #about {
-    height: 300px;
+  #work {
+    height: 1100px;
   }
 }
 
@@ -321,11 +337,33 @@ body {
     font-weight: 500;
     padding: 70px 10px 70px 20px;
   }
+
+  .navbar-brand {
+    background-color: var(--clr4);
+  }
 }
 
 @media screen and (max-width: 500px) {
   .head4 {
     font-size: 15px;
+  }
+  #skills {
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #skills {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #about {
+    height: 350px;
+  }
+  #skills {
+    height: 600px;
   }
 }
 
@@ -333,11 +371,29 @@ body {
   h1 {
     font-size: 10px;
   }
+  #about {
+    height: 400px;
+  }
+  #skills {
+    height: 700px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  #about {
+    height: 450px;
+  }
+  #skills {
+    height: 750px;
+  }
 }
 
 @media screen and (max-width: 300px) {
   #about {
-    height: 400px;
+    height: 500px;
+  }
+  #skills {
+    height: 850px;
   }
 }
 
